@@ -16,7 +16,7 @@ To use this MMDB file in your projects, you can integrate it with any programmin
 import geoip2.database
 
 # Load the MMDB file
-reader = geoip2.database.Reader('iran_isps.mmdb')
+reader = geoip2.database.Reader('ir_asn.mmdb')
 
 # Example lookup
 ip_address = '8.8.8.8'
